@@ -33,7 +33,7 @@ For example sumFibs(10) should return 10 because all odd Fibonacci numbers less 
 
 15. [Carousel](https://github.com/sheilagomes/carousel) - Use JS to make a carousel with 5 pictures function. Left and right arrows should work. Live version here. [Live version  here](https://sheilagomes.github.io/carousel/)
 
-16. [Insert Dashes](https://github.com/sheilagomes/javascriptmas/blob/main/sumOddFibonacciNumbers.js) - Given a string, insert dashes between the letters and exclude spaces. [Live version  here](https://codepen.io/sheilagomes/pen/ZEpKpaj)
+16. [Insert Dashes](https://github.com/sheilagomes/javascriptmas/blob/main/sumOddFibonacciNumbers.js) - Given a string, insert dashes between the letters and exclude spaces. [Live version  here](https://codepen.io/sheilagomes/full/ZEpKpaj)
 
 17. [Different Symbols Naive](https://github.com/sheilagomes/javascriptmas/blob/main/sumOddFibonacciNumbers.js) - Return the count of unique characters in a string.
 
