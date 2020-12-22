@@ -16,12 +16,6 @@ body {
     display: grid;
     grid-gap: 10px;
     grid-template: repeat(5, auto) / repeat(5, 1fr);
-    /*grid-template-areas: 
-        ". . jc jc jc"
-        "ws ws jc jc jc"
-        "ws ws jc jc jc"
-        "pt pt jc jc jc"
-        "pi pi jc jc jc";*/
     grid-template-areas: 
     ". . jc jc jc"
     "mc mc jc jc jc"
@@ -32,7 +26,6 @@ body {
 
 .welcome-section {
     text-align: center;
-    /*grid-area: ws;*/
 }
 
 #photo {
@@ -64,12 +57,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /*grid-area: pi;*/
 }
 
 .my-card{
-    /*border: 1px solid var(--regular-color);
-    border-radius: 15px;*/
     grid-area: mc;
 }
 
@@ -146,6 +136,7 @@ a:hover {
         line-height: 1.2;
     }
     .javascriptmas {
+        padding-left: 0;
         padding-bottom: 1em;
         border: 1px solid var(--regular-color);
         border-radius: 15px;
@@ -157,7 +148,7 @@ a:hover {
     }
 
     ul {
-        line-height: 1.5;
+        line-height: 1.8;
         font-size: 1em;
     }
 
@@ -169,5 +160,9 @@ a:hover {
     .column2 {
         padding-top: -15px;
         margin-top: -15px;
+    }
+
+    .profile-icons {
+        padding: 1.5em;
     }
 }
